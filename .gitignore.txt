@@ -1,0 +1,30 @@
+# Unity generated files
+[Ll]ibrary/
+[Ll]ibrary/
+[Tt]emp/
+[Tt]emp/
+[Dd]ebug/
+[Dd]ebugFiles/
+[Mm]emoryCaptures/
+.obj/
+.vscode/
+
+# User-specific files
+.idea/
+.vscode/
+*.user
+*.userprefs
+*.suo
+*.swp
+*.sln
+*.pidb
+*.booproj
+*.svd
+
+# Build results
+[Dd]ist/
+[Dd]ist/
+[Ll]ogs/
+
+# Uncomment this line if you have to deal with files that shouldn't be ignored
+# *.log
