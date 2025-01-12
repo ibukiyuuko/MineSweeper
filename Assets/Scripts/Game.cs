@@ -1,6 +1,7 @@
 using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class Game : MonoBehaviour
 {
@@ -16,6 +17,9 @@ public class Game : MonoBehaviour
     public Text statusText;
     private Board board;
     private Cell[,] state;
+
+    private int windowWidth = Screen.width;
+    private int windowHeight = Screen.height;
 
     [SerializeField] Text timeText;
     [SerializeField] Text winTimeCount;
@@ -43,7 +47,9 @@ public class Game : MonoBehaviour
         state = new Cell[width, height];
         gameover = false;
         mineLeft = mineCount;
-        leftMine.text = mineLeft.ToString();
+        /*statusText.rectTransform.anchoredPosition = 
+            new Vector2(width, height);*/
+        leftMine.text = "Mine left: " + mineLeft.ToString();
 
         GenerateCells();
         GenerateMines();
@@ -195,7 +201,7 @@ public class Game : MonoBehaviour
         board.Draw(state);
         if (cell.flagged) mineLeft--;
         else if (!cell.flagged) mineLeft++;
-        leftMine.text = mineLeft.ToString();
+        leftMine.text = "Mine left: " + mineLeft.ToString();
     }
 
     private void Reveal()
@@ -338,7 +344,7 @@ public class Game : MonoBehaviour
         Debug.Log("Win!");
         statusText.text = "You Win! :)";
         winTimes++;
-        winTimeCount.text = winTimes.ToString();
+        winTimeCount.text = "You have winned: " + winTimes.ToString();
         gameover = true;
         onStart = false;
     }
@@ -358,7 +364,7 @@ public class Game : MonoBehaviour
         else if(onStart == true)
         {
             clearTime += Time.fixedDeltaTime;
-            timeText.text = System.TimeSpan.FromSeconds(value: clearTime).ToString(format: @"mm\:ss\:ff");
+            timeText.text = "Time: " + System.TimeSpan.FromSeconds(value: clearTime).ToString(format: @"mm\:ss\:ff");
         }
         
         //Debug.Log(winTimes);

@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|f:\\unity\\admin\\minesweeper\\assets\\scripts\\restartgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|f:\\unity\\admin\\minesweeper\\assets\\scripts\\uiposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|F:\\Unity\\admin\\MineSweeper\\assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|F:\\Unity\\admin\\MineSweeper\\assets\\scripts\\restartgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|F:\\Unity\\admin\\MineSweeper\\assets\\scripts\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,21 +40,33 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game.cs",
               "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Game.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game.cs",
-              "ViewState": "AQIAALgAAAAAAAAAAAAkwMMAAAAlAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAA8wDgAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T18:54:02.995Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UIPosition.cs",
+              "DocumentMoniker": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\UIPosition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIPosition.cs",
+              "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\UIPosition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIPosition.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAywA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:42:13.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RestartGame.cs",
               "DocumentMoniker": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\RestartGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RestartGame.cs",
               "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\RestartGame.cs",
               "RelativeToolTip": "Assets\\Scripts\\RestartGame.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAA8wBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T09:09:51.993Z",
               "EditorCaption": ""
@@ -63,13 +79,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Board.cs",
               "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Board.cs",
               "RelativeToolTip": "Assets\\Scripts\\Board.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA/wCgAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:36:58.785Z"
+              "WhenOpened": "2025-01-10T18:36:58.785Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Cell.cs",
               "DocumentMoniker": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Cell.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cell.cs",

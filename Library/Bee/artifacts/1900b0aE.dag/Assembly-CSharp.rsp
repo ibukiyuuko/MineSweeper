@@ -375,6 +375,7 @@
 "Assets/Scripts/Cell.cs"
 "Assets/Scripts/Game.cs"
 "Assets/Scripts/RestartGame.cs"
+"Assets/Scripts/UIPosition.cs"
 -langversion:9.0
 
 /deterministic

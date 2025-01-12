@@ -14,11 +14,22 @@ public class Board : MonoBehaviour
     public Tile tileFlag;
     public Tile[] tileNum = new Tile[8];
 
-
+    public Camera mainCamera;
     private void Awake()
     {
         tilemap = GetComponent<Tilemap>();
+        //SetTilemapToWindowCenter();
     }
+
+    /*void SetTilemapToWindowCenter()
+    {
+        Vector3 screenCenter = new Vector3(Screen.width / 2f, Screen.height / 2f, 0f);
+
+        Vector3 worldCenter = mainCamera.ScreenToWorldPoint(screenCenter);
+
+        tilemap.transform.position = new Vector3(worldCenter.x, worldCenter.y, tilemap.transform.position.z);
+        Debug.Log(worldCenter.x + worldCenter.y);
+    }*/
 
     public void Draw(Cell[,] state)
     {

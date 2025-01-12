@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
     <Compile Include="Assets\Scripts\Board.cs" />
+    <Compile Include="Assets\Scripts\UIPosition.cs" />
     <Compile Include="Assets\Scripts\Cell.cs" />
   </ItemGroup>
   <ItemGroup>
