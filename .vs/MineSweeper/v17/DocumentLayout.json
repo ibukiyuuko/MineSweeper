@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|f:\\unity\\admin\\minesweeper\\assets\\scripts\\restartgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|F:\\Unity\\admin\\MineSweeper\\assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,36 +36,48 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game.cs",
               "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Game.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "ViewState": "AQIAALgAAAAAAAAAAAAkwMMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T18:54:02.995Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Board.cs",
-              "DocumentMoniker": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Board.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Board.cs",
-              "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Board.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Board.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAQwDoAAAAhAAAA",
+              "Title": "RestartGame.cs",
+              "DocumentMoniker": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\RestartGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RestartGame.cs",
+              "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\RestartGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RestartGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:36:58.785Z",
+              "WhenOpened": "2025-01-12T09:09:51.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Board.cs",
+              "DocumentMoniker": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Board.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Board.cs",
+              "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Board.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Board.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA/wCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:36:58.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Cell.cs",
               "DocumentMoniker": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Cell.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cell.cs",
               "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Cell.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cell.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:34:18.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T18:34:18.177Z"
             }
           ]
         }

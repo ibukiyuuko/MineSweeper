@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638721724723266650
+      ticks: 638721736349405053
     m_Hash: 2363099045
   m_LockFileStatus:
     m_FilePath: F:/Unity/admin/MineSweeper/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638721724723276676
+      ticks: 638721736349405053
     m_Hash: 635318351
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

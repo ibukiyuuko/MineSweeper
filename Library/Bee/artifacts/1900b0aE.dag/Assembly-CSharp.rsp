@@ -371,8 +371,10 @@
 -analyzer:"F:/Unity/editor/2022.3.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"F:/Unity/editor/2022.3.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Board.cs"
+"Assets/Scripts/CameraAspect.cs"
 "Assets/Scripts/Cell.cs"
 "Assets/Scripts/Game.cs"
+"Assets/Scripts/RestartGame.cs"
 -langversion:9.0
 
 /deterministic
