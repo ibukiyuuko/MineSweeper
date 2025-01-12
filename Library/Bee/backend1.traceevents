@@ -1,410 +1,415 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1736686405591282, "dur":1459, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405592750, "dur":106, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405592888, "dur":196, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405593098, "dur":2452, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405595551, "dur":100501, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405696052, "dur":130, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405696182, "dur":54, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405696333, "dur":1228, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1736686405593288, "dur":2267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736686405595556, "dur":4525, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736686405600100, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736686405600177, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1736686405600417, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405600567, "dur":247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405600815, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405600918, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405601042, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405601286, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405601344, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405601439, "dur":188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405601628, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405601764, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405602066, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405602284, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736686405600176, "dur":2278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1736686405602699, "dur":93, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736686405603529, "dur":87923, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1736686405695276, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1736686405695275, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MineSweeper_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1736686405695369, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1736686405593341, "dur":2229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405595572, "dur":1009, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405596582, "dur":3503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405600105, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1736686405600089, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1736686405600231, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405602370, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1736686405603429, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":2, "ts":1736686405603428, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1736686405603492, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405604375, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1736686405606104, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405607168, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405611622, "dur":509, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405612145, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405615109, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405615552, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405618820, "dur":493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405619323, "dur":3116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405622503, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405622938, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405626030, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405626583, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405629603, "dur":465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405630075, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405633060, "dur":503, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405633571, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405636373, "dur":587, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405636972, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405640074, "dur":533, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736686405640618, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736686405643659, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1736686405645918, "dur":50127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405593312, "dur":2247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405595563, "dur":1467, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405597030, "dur":3052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405600098, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405600226, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405601342, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1736686405603151, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1736686405603149, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1736686405603320, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405604349, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1736686405605706, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":3, "ts":1736686405605705, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MineSweeper.exe" }}
-,{ "pid":12345, "tid":3, "ts":1736686405605771, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405605847, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper.exe" }}
-,{ "pid":12345, "tid":3, "ts":1736686405606799, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405607061, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405609762, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405610130, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405613116, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405613597, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405616560, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405617051, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405620090, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405620444, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405623743, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405624318, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405627588, "dur":577, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405628181, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405631100, "dur":627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405631738, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405635022, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405635483, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405638564, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736686405638958, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1736686405642153, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1736686405643503, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1736686405645832, "dur":50214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405593335, "dur":2231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405595568, "dur":1384, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405596952, "dur":3139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405600110, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1736686405600092, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1736686405600226, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405602551, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1736686405603908, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405604524, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1736686405606232, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405607083, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405609826, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405610261, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405613175, "dur":460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405613646, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405616665, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405617126, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405620256, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405620649, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405623774, "dur":571, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405624359, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405627583, "dur":556, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405628152, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405631095, "dur":610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405631717, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405634670, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405635106, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405638183, "dur":499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736686405638696, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405641961, "dur":7780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736686405649779, "dur":46269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405593360, "dur":2214, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405595576, "dur":1095, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405596672, "dur":3422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405600095, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1736686405600162, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405601505, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1736686405603185, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1736686405603327, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405603951, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1736686405605450, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405605448, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405605506, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405605722, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405609005, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405609318, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405612214, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405612596, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405615656, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405616114, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405618993, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405619449, "dur":3115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405622621, "dur":433, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405623064, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405626336, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405626839, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405630015, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405630445, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405633609, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405634006, "dur":3041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405637089, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405637576, "dur":3534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405641153, "dur":565, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736686405641731, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736686405643777, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1736686405646038, "dur":50017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405593379, "dur":2199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405595580, "dur":1849, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405597429, "dur":2661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405600092, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1736686405600175, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405601209, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1736686405603588, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1736686405603647, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405604547, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1736686405606250, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405607137, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405609854, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405610302, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405613595, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405614002, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405617086, "dur":404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405617497, "dur":3007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405620568, "dur":492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405621069, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405624384, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405624821, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405628078, "dur":393, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405628485, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405631644, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405632042, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405635089, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405635547, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405638633, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405639051, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736686405642495, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736686405642705, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":6, "ts":1736686405644836, "dur":51215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405593402, "dur":2181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405595584, "dur":1857, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405597441, "dur":2652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405600093, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1736686405600226, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405601900, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1736686405603606, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1736686405603605, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1736686405603664, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405604650, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1736686405606385, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405607172, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405610168, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405610591, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405613770, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405614162, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405617154, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405617541, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405620579, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405621080, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405624414, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405624823, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405628220, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405628565, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405631708, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405632093, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405635099, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405635585, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405638673, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736686405639082, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736686405642489, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1736686405644726, "dur":51327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405593415, "dur":2172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405595589, "dur":1860, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405597449, "dur":2640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405600118, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":8, "ts":1736686405600090, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1736686405600231, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405601933, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1736686405603427, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1736686405603490, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405605545, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405604682, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1736686405605920, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405607147, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405611043, "dur":605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405611659, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405614647, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405615134, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405618065, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405618488, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405621744, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405622176, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405625265, "dur":530, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405625803, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405629449, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405629915, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405632889, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405633396, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405636321, "dur":576, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405636907, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405640225, "dur":587, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736686405640821, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736686405643645, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1736686405646214, "dur":49843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405593432, "dur":2159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405595592, "dur":1160, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405596753, "dur":3331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405600109, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1736686405600089, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1736686405600225, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405602837, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1736686405604163, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405605156, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1736686405606115, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405607186, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405610206, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405610614, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405614135, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405614490, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405617975, "dur":420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405618406, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405621654, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405622101, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405625193, "dur":492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405625696, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405628894, "dur":531, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405629435, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405632471, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405632905, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405636011, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405636383, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405639562, "dur":513, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1736686405640087, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1736686405643371, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1736686405646039, "dur":50017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405593448, "dur":2147, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405595595, "dur":4488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405600316, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405600414, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405600565, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405600801, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405600891, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405601034, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405601261, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405601323, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405601385, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405601477, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405601670, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405601804, "dur":320, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405602125, "dur":218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405602391, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
-,{ "pid":12345, "tid":10, "ts":1736686405602461, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\PackageCache\\com.unity.burst@1.8.4\\.Runtime\\bcl.exe" }}
-,{ "pid":12345, "tid":10, "ts":1736686405600089, "dur":2453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":10, "ts":1736686405602542, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405603596, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405603595, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MineSweeper_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405603658, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405604164, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405604975, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405604974, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405605497, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405606510, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405607051, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405609887, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405610345, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405613790, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405614220, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405617485, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405617837, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405621078, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405621513, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405624820, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405625182, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405628562, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405628895, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405632162, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405632479, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405635573, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405635926, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405639030, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405639403, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1736686405642741, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1736686405642895, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":10, "ts":1736686405645373, "dur":50676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405593464, "dur":2134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405595598, "dur":4490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405600095, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1736686405600225, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405601504, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1736686405603243, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1736686405603241, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1736686405603336, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405604403, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1736686405605870, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MineSweeper_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1736686405605998, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405606973, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1736686405608352, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405609100, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405611869, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405612304, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405615140, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405615629, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405618795, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405619283, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405622243, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405622732, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405625781, "dur":625, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405626418, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405629598, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405630065, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405633079, "dur":502, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405633631, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405636704, "dur":547, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405637272, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405640273, "dur":552, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405643435, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1736686405640846, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1736686405643623, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/level0" }}
-,{ "pid":12345, "tid":11, "ts":1736686405645912, "dur":50142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405593478, "dur":2124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405595602, "dur":4485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405600088, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":12, "ts":1736686405600170, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405601148, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":12, "ts":1736686405603299, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1736686405603376, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405604445, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1736686405606695, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405611024, "dur":614, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405611651, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405614598, "dur":509, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405615121, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405617985, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405618423, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405621650, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405622086, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405625177, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405625666, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405628827, "dur":544, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405629380, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405632476, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405632897, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405636007, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405636368, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405639507, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1736686405639954, "dur":3116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1736686405643464, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1736686405644680, "dur":51379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736686405699433, "dur":965, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1736687594585852, "dur":1571, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736687594587430, "dur":105, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736687594587566, "dur":196, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736687594587774, "dur":2485, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736687594590261, "dur":2040361, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736687596630624, "dur":214, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736687596630929, "dur":1356, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1736687594587965, "dur":2299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736687594590266, "dur":4497, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736687594594783, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736687594594877, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1736687594595099, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594595263, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594595573, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594595648, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594595780, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594595953, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594596014, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594596082, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594596177, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594596351, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594596489, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594596775, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594596926, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736687594594876, "dur":2204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1736687594597347, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736687594598198, "dur":97704, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1736687594699870, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1736687594699869, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MineSweeper_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1736687594699967, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1736687594700585, "dur":1930051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594588011, "dur":2271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594590283, "dur":966, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594591250, "dur":3519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594594772, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1736687594594849, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594595814, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1736687594597938, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1736687594598044, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594598461, "dur":17069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1736687594615590, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MineSweeper_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1736687594616124, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1736687594619615, "dur":628, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594620287, "dur":3187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594623550, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594623912, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594627034, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594627353, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594630339, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594630721, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594634403, "dur":589, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594635005, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594638034, "dur":676, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594638735, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594641407, "dur":661, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594642088, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594644958, "dur":654, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594645632, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594648628, "dur":620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594649265, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594652637, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594653003, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594656337, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594656675, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1736687594658163, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736687594658605, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1736687594660711, "dur":1969903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594587983, "dur":2288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594590275, "dur":1375, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594591650, "dur":3127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594594778, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1736687594594922, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594596526, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1736687594598265, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1736687594598263, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1736687594598329, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594614532, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1736687594616502, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594616918, "dur":5319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594622311, "dur":430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594622752, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594625763, "dur":508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594626282, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594629318, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594629788, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594633171, "dur":563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594633749, "dur":2818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594636612, "dur":468, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594637093, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594640186, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594640676, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594643580, "dur":465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594644057, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594646926, "dur":612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594647549, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594650638, "dur":489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594651137, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594654201, "dur":592, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594654815, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736687594657470, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736687594657790, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1736687594660297, "dur":1970335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594588003, "dur":2275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594590279, "dur":1373, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594591653, "dur":3115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594594799, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1736687594594771, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1736687594594921, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594596379, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1736687594597797, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1736687594597795, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1736687594597855, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594598280, "dur":17023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1736687594615363, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594615361, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594615425, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594615824, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594616943, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594617209, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594621155, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594621588, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594625007, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594625390, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594628381, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594628783, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594632209, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594632638, "dur":2924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594635623, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594636026, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594639339, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594639726, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594642853, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594643266, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594646289, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594646650, "dur":3014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594649729, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594650068, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594653392, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594653735, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736687594656881, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736687594657055, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1736687594659404, "dur":1971213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594588033, "dur":2252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594590287, "dur":1146, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594591434, "dur":3337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594594772, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1736687594594846, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594595747, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1736687594597911, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1736687594597909, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1736687594598046, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594598432, "dur":17066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1736687594615556, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":5, "ts":1736687594615556, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MineSweeper.exe" }}
+,{ "pid":12345, "tid":5, "ts":1736687594615622, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594615692, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper.exe" }}
+,{ "pid":12345, "tid":5, "ts":1736687594616824, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594617043, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594620713, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594621071, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594624514, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594624840, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594627863, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594628185, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594631135, "dur":918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594632066, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594635151, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594635490, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594638885, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594639192, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594642232, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594642550, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594645809, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594646149, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594649366, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594649732, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594653093, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594653459, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736687594656617, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594656681, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1736687594658090, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736687594658582, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1736687594660713, "dur":1969914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594588054, "dur":2235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594590290, "dur":1857, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594592147, "dur":2628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594594789, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1736687594594776, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1736687594594932, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594597262, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1736687594598531, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1736687594598592, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594616474, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594614640, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1736687594616636, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594616921, "dur":3927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594620929, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594621305, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594624587, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594624914, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594627945, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594628278, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594631528, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594635146, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594635473, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594638843, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594639152, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594642146, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594642490, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594645700, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594646067, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594649254, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594649604, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594652967, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594653315, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594656430, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736687594656515, "dur":14298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736687594670853, "dur":1959778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594588073, "dur":2220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594590295, "dur":1880, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594592175, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594594779, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1736687594594865, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594596198, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1736687594597839, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1736687594598345, "dur":17397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1736687594615889, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594616349, "dur":4981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594621406, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594621727, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594625657, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594626154, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594629201, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594629682, "dur":3450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594633201, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594633766, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594636693, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594637178, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594640197, "dur":507, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594640713, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594643697, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594644134, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594647033, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594647596, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594650506, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594651043, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594654005, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594654499, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736687594657241, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736687594657462, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1736687594660270, "dur":1970365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594588095, "dur":2207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594590304, "dur":1833, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594592137, "dur":2637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594594775, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1736687594594927, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594596729, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1736687594598386, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1736687594598442, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594614629, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1736687594616752, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594616859, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594620568, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594620889, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594623934, "dur":535, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594624499, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594627424, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594627928, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594630774, "dur":883, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594631716, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594634947, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594635320, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594638392, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594638963, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594641838, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594642300, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594645463, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594645896, "dur":3138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594649088, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594649445, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594652759, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594653084, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594656121, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594656474, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736687594658044, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736687594658579, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1736687594660443, "dur":1970186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594588112, "dur":2195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594590308, "dur":1182, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594591490, "dur":3277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594594798, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1736687594594771, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1736687594594922, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594597519, "dur":17412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1736687594615018, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1736687594615096, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594615958, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1736687594617043, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594617268, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594621471, "dur":645, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594622131, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594625262, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594625630, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594628710, "dur":481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594629202, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594632990, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594633540, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594636263, "dur":612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594636891, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594639914, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594640410, "dur":2818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594643275, "dur":532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594643822, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594646865, "dur":657, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594647536, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594650435, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594651021, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594653884, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594654426, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1736687594657177, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1736687594657349, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1736687594660045, "dur":1970571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736687594588128, "dur":2182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736687594590311, "dur":4455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1736687594594993, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594595098, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594595270, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594595529, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594595634, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594595792, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594596063, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594596157, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594596378, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594596527, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594596816, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594596975, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1736687594597105, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\admin\\MineSweeper\\Library\\PackageCache\\com.unity.burst@1.8.4\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":10, "ts":1736687594594771, "dur":2410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":10, "ts":1736687594616471, "dur":2010324, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":10, "ts":1736687596630095, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594588145, "dur":2170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594590315, "dur":4457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594594787, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1736687594594773, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1736687594594931, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594596965, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1736687594598440, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1736687594598439, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1736687594598530, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594614624, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1736687594616319, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594616857, "dur":4169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594621084, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594621481, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594624789, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594625166, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594628112, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594628448, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594632052, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594632461, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594635456, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594635808, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594639134, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594639473, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594642908, "dur":460, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594643383, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594646534, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594646872, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594650022, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594650434, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594653743, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594654190, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1736687594657089, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1736687594657168, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1736687594659524, "dur":1971097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594588163, "dur":2154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594590317, "dur":4448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594594779, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594594935, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594596146, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1736687594597968, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1736687594598192, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594614558, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1736687594615444, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594615442, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594615551, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594615916, "dur":6512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594622487, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594622842, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594625813, "dur":501, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594626322, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594629635, "dur":474, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594630119, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594633221, "dur":549, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594633780, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594636527, "dur":499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594637038, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594640054, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594640550, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594643427, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594643893, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594646850, "dur":651, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594647527, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594650260, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594650741, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594653864, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594654236, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1736687594657197, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594657495, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1736687594658894, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1736687594659258, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Unity/games/mine/MineSweeper_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1736687594660739, "dur":1969886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736687596634240, "dur":946, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

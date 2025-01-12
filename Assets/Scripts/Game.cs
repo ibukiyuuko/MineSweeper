@@ -195,13 +195,16 @@ public class Game : MonoBehaviour
         Cell cell = GetCell(cellPosition.x, cellPosition.y);
 
         if (cell.type == Cell.Type.Invalid) return;
+        if(!cell.revealed)
+        {
+            cell.flagged = !cell.flagged;
+            state[cellPosition.x, cellPosition.y] = cell;
+            board.Draw(state);
+            if (cell.flagged) mineLeft--;
+            else if (cell.type == Cell.Type.Mine && !cell.flagged) mineLeft++;
+            leftMine.text = "Mine left: " + mineLeft.ToString();
+        }
         
-        cell.flagged = !cell.flagged;
-        state[cellPosition.x, cellPosition.y] = cell;
-        board.Draw(state);
-        if (cell.flagged) mineLeft--;
-        else if (!cell.flagged) mineLeft++;
-        leftMine.text = "Mine left: " + mineLeft.ToString();
     }
 
     private void Reveal()

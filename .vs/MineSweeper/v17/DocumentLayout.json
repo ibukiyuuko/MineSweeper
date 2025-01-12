@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|f:\\unity\\admin\\minesweeper\\assets\\scripts\\uiposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|F:\\Unity\\admin\\MineSweeper\\assets\\scripts\\uiposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{177A3D41-490F-A6E9-C1A7-BDA2CBF94462}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game.cs",
               "ToolTip": "F:\\Unity\\admin\\MineSweeper\\Assets\\Scripts\\Game.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA8wDgAAABUAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAIBFwMsAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T18:54:02.995Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UIPosition.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAywA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T11:42:13.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T11:42:13.102Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RestartGame.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAA8wBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T09:09:51.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T09:09:51.993Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Board.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:36:58.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T18:36:58.785Z"
             },
             {
               "$type": "Document",
